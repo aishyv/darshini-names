@@ -1,6 +1,6 @@
 # What's in a name? A whole category of restaurants
 
-## Analysis of the names of darshini-type restaurants in Bangalore
+## Analysis of names of darshini-type restaurants in Bangalore
 
 This is my submission for the 2023 Lede Program's second project. 
 
@@ -18,7 +18,7 @@ I filtered out the darshini-type restaurants by looking for:
 
 I used pandas for basic value_counts, splitting the names into prefix, suffix
 
-The data for the first chart can be found in the Jupyter Notebook in the [docs folder]((https://github.com/aishyv/darshini-names/tree/4877d126968144ffb47e71ba6b73554e65320c59/docs)
+The data for the first chart can be found in the Jupyter Notebook in the [docs folder](https://github.com/aishyv/darshini-names/tree/4877d126968144ffb47e71ba6b73554e65320c59/docs)
 For the second chart, I took the data into Apple Numbers and analysed it via filters and categories
 
 ### New skills, approaches
