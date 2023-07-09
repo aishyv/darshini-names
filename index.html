@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Darshinis of Bangalore</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/arcade/64/coffee-beans-.png" alt="coffee-beans-"/> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <!-- import fonts-->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Ysabeau&display=swap');     
+      @font-face {
+        font-family: 'Caveat', cursive;
+        font-family: 'Ysabeau', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+
+    <!--Chart and image -section Size--> 
+    <style>
+        .img {
+            width:100%;
+            max-width:800px;
+            margin-left:auto;
+            margin-right:auto;
+            padding-bottom: 2em;
+        }
+
+        .chart-section {
+            width:100%;
+            max-width:700px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+            }
+    </style>
+
+    <!--Font styles--> 
+    <style>
+        
+        .text-center {
+        text-align:center;
+        }
+    
+      h1.headline {
+        font-family:'Caveat';
+        font-size: 68px;
+        font-weight:700px;
+        text-align: center;
+        text-transform: none;
+        color: #4a4a4a;
+        line-height: 1.2em;
+        margin: auto;
+        padding-top: 1em; 
+      }
+
+      h2.category {
+        font-family:'Ysabeau';
+        font-size: 20px;
+        font-weight: 300px;
+        max-width: 1200px;
+        text-align: center;
+        margin:auto;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        color: #4a4a4a;
+      }
+
+      p.byline{
+        font-family:'Ysabeau';
+        text-align:center;
+        font-size: 1.2rem;
+        line-height: 1.5em;
+        margin-top:0;
+        margin-bottom:10px;
+        color: #7f7f7f;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 2rem;
+      }
+
+      p.date{
+        font-family:'Open Sans';
+        text-align:center;
+        font-size: 1rem;
+        line-height: 1.5em;
+        margin-top:0;
+        margin-bottom:25px;
+        color: #7e7e7e;
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+
+      p.body-text {
+        font-family:'Open Sans';
+        text-align:left;
+        font-size: 1rem;
+        line-height: 2em;
+        margin-top:0;
+        margin-bottom:25px;
+        color: #010101;
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+
+      div.footer{
+        font-family:'Ysabeau';
+        text-align:left;
+        font-size: 0.8rem;
+        margin-top:0;
+        margin-bottom:10px;
+        color: #323232;
+        padding-top: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 2rem;
+      }
+    </style>
+
+    <!--Chart styles--> 
+    <style type='text/css'>	#page-1-box { 
+		max-width: none;
+		margin: 0 auto;
+	}
+
+    p.f2h-text-20{
+        font-family:'Caveat';
+        font-size: 4vw;
+        color: #010101;
+        max-width: 700px;
+    }
+
+    p.f2h-text-19{
+        font-family:'Caveat';
+        font-size: 30px;
+    }
+
+    p.f2h-text-subhead{
+        font-family:'Ysabeau';
+        font-size: 16px;
+    }
+
+    p.f2h-text-strap{
+        font-family:'Ysabeau';
+        font-size: 20px;
+    }
+
+    p.f2h-text-head2{
+        font-family:'Caveat';
+        font-size: 6vw;
+        color: #010101;
+        padding-bottom: 2%
+    }
+
+    p.f2h-text-strap2{
+        font-family:'Ysabeau';
+        font-size: 20px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    p.f2h-text-word{
+        font-family:'Ysabeau';
+        font-size: 20px;
+    }
+
+    p.f2h-text-word2{
+        font-family:'Ysabeau';
+        font-size: 2vw;
+    }
+
+    p.f2h-text-num{
+        font-family:'Caveat';
+        font-size: 3vw;
+    }
+
+    p.f2h-text-br{
+        font-family:'Ysabeau';
+        font-size: 20px;
+    }
+
+    p.f2h-text-source{
+        font-family:'Ysabeau';
+        font-size: 16px;
+    }
+
+    p.f2h-text-footnote{
+        font-family:'Ysabeau';
+        font-size: 15px;
+    }
+
+
+    p.f2h-text-highlight{
+        font-family:'Caveat';
+        font-size: 3vw;
+        color:#ffffff
+    }
+
+    p.f2h-text-pattern{
+        font-family:'Ysabeau';
+        font-size: 1.5vw;
+    }
+
+
+	#page-1-box .f2h-frame { 
+		margin: 0 auto;
+	}
+
+	#page-1-box p, #page-1-box .body { 
+		margin: 0;
+	}
+
+	#page-1-box .f2h-img { 
+		width: 100% !important;
+		top: 0;
+	}
+
+	#page-1-box .f2h-symbol { 
+		box-sizing: border-box;
+	}
+
+	#page-1-box :where(.frame, .f2h-text, .f2h-symbol) { 
+		position: absolute;
+	}
+
+	#page-1-box :where(.f2h-link, .f2h-img) { 
+		display: block;
+	}
+
+	#f2h-frame-300 { position: relative; overflow: hidden; display: none; }
+
+
+	#f2h-frame-555 { position: relative; overflow: hidden; display: none; }
+
+
+	#f2h-frame-640 { position: relative; overflow: hidden; display: none; }
+
+
+	#f2h-frame-960 { position: relative; overflow: hidden; display: none; }
+
+
+	#f2h-frame-1280 { position: relative; overflow: hidden; display: none; }
+    </style>
+
+    <style type='text/css'>	#page-2-box { 
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    #page-2-box .f2h-frame { 
+        margin: 0 auto;
+    }
+
+    #page-2-box p, #page-2-box .body { 
+        margin: 0;
+    }
+
+    #page-2-box .f2h-img { 
+        width: 100% !important;
+        top: 0;
+    }
+
+    #page-2-box .f2h-symbol { 
+        box-sizing: border-box;
+    }
+
+    #page-2-box :where(.frame, .f2h-text, .f2h-symbol) { 
+        position: absolute;
+    }
+
+    #page-2-box :where(.f2h-link, .f2h-img) { 
+        display: block;
+    }
+
+    #f2h-frame-300 { position: relative; overflow: hidden; display: none; }
+
+
+    #f2h-frame-555 { position: relative; overflow: hidden; display: none; }
+
+
+    #f2h-frame-640 { position: relative; overflow: hidden; display: none; }
+
+
+    #f2h-frame-960 { position: relative; overflow: hidden; display: none; }
+
+
+    #f2h-frame-1280 { position: relative; overflow: hidden; display: none; }
+    </style>
+
+  </head>
+
+  <body>
+    <div id="introduction">
+        <h1 class="headline">What's in a name? A whole category of restaurants</h1>
+        <h2 class = "category">Darshinis are a type of fast food restaurants native to the South-Indian city of Bangalore. I analysed their names to find the most common naming patterns.</h2>
+        <p class="byline text-center">By Aishwarya V</p>
+
+    </div>
+
+    <div class="img">
+        <img src = "udupi.jpg"> 
+    </div>
+
+    <div class="story-body">
+        <p class="body-text">When fast food came to Bangalore in 1983, the South-Indian city embraced it with arms and wallets wide open. The pioneer, Café Darshini,<sup><a href = "#footnote-1">[1]</a></sup>  went on to inspire a new model of restaurants in the city called <a href = "https://en.wikipedia.org/wiki/Darshini_(restaurant)"><em>darshinis</em></a>. There are a couple of ways to spot a darshini - affordable South-Indian vegetarian fare, tall steel tables and sometimes, the name.</p>
+        <p class="body-text">The observant customer will find that the names seem to have a certain homogeneity. Earlier, the suffix 'Darshini' would separate these restaurants from other South-Indian eateries. However, an analysis of ~1,078 darshini names<sup><a href = #footnote-2>[2]</a></sup> revealed that this is not the case anymore. Initial findings showed that it is more likely for them to carry the name 'Udupi' (the name of a popular district in Karnataka, known for its local vegetarian cuisine).
+        <p class="body-text"> However, it's the word 'Veg' (the colloquial word for 'Vegetarian') that found its way to over 500 darshini names. 
+    </div>
+    <div class="img"></style><div id="page-1-box" class="figma2html">
+        <!-- Frame: 300px -->
+    <div id="f2h-frame-300" class="f2h-frame frame artboard" data-aspect-ratio="0.555" data-max-width="554">
+    <div class="spacer" style="padding: 0 0 0 0; min-width: 300px; max-width: 554px;"></div>
+            <picture>
+                <img id="img-f2h-frame-300" class="f2h-img" alt="A bar chart" data-src="figma2html/300px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="300.00" height="541.00"/>
+            </picture>
+    <div class="f2h-text"  style="top: 23.29% ; left: 50.17% ; opacity: 0.5; width: 215.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-subhead  "><span style="font-weight: 700">Frequency of words appearing in darshini names*</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 9.43% ; left: 50.00% ; opacity: 1; width: 268.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-strap  "><span style="font-weight: 300"> All </span><span style="font-weight: 300"><i>darshinis</i></span><span style="font-weight: 300"> serve vegetarian food. Half the names analysed, mention it in their names - just in case.</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 88.35% ; left: 91.33% ; opacity: 0.5; width: 206.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-footnote  "><span style="font-weight: 300">*in a sample of 1078 names</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 91.31% ; left: 89.67% ; opacity: 0.5; width: 126.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-source  "><span style="font-weight: 300">Source: Kaggle</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 32.72% ; left: 24.33% ; opacity: 0.5; width: 27.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-4  "><b>Veg</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 39.93% ; left: 24.33% ; opacity: 0.5; width: 43.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-5  "><b>Udupi</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 46.77% ; left: 24.33% ; opacity: 0.5; width: 50.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-6  "><b>Bhavan</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 53.05% ; left: 24.33% ; opacity: 0.5; width: 54.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-7  "><b>Sri</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 59.70% ; left: 24.33% ; opacity: 0.5; width: 53.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-8  "><b>Krishna</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 66.54% ; left: 24.33% ; opacity: 0.5; width: 60.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-9  "><b>Upahar</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 72.83% ; left: 24.33% ; opacity: 0.5; width: 50.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-10  "><b>Darshini</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 79.48% ; left: 24.33% ; opacity: 0.5; width: 19.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-11  "><b>Vishnu</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 32.53% ; left: 77.00% ; opacity: 0.5; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>545</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 39.00% ; left: 52.33% ; opacity: 0.5; width: 42.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>340</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 45.84% ; left: 47.00% ; opacity: 0.5; width: 54.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>288</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 52.31% ; left: 43.00% ; opacity: 0.5; width: 42.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>263</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 58.78% ; left: 38.67% ; opacity: 0.5; width: 47.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>254</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 65.62% ; left: 36.67% ; opacity: 0.5; width: 33.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>180</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 71.35% ; left: 34.33% ; opacity: 0.5; width: 27.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>71</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 78.74% ; left: 33.67% ; opacity: 0.5; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>57</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 3.25% ; left: 50.00% ; opacity: 1; width: 278.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center;">
+                <p class="f2h-text-20"><b>Veg food — a dime a dozen</b></p>
+            </div>
+        </div>
+    
+    
+    
+        <!-- Frame: 555px -->
+        <div id="f2h-frame-555" class="f2h-frame frame artboard" data-aspect-ratio="0.979" data-min-width="555" data-max-width="639">
+            <div class="spacer" style="padding: 0 0 0 0; min-width: 555px; max-width: 639px;"></div>
+            <picture>
+                <img id="img-f2h-frame-555" class="f2h-img" alt="A bar chart" data-src="figma2html/555px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="555.00" height="567.00"/>
+            </picture>
+    <div class="f2h-text"  style="top: 24.87% ; left: 49.82% ; opacity: 0.5; width: 431.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-subhead  "><span style="font-weight: 700">Frequency of words appearing in darshini names*</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 11.82% ; left: 49.82% ; opacity: 1; width: 469.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-strap  "><span style="font-weight: 300"> All </span><span style="font-weight: 300"><i>darshinis</i></span><span style="font-weight: 300"> serve vegetarian food. Half the names analysed, mention it in their names - just in case.</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 88.36% ; left: 94.25% ; opacity: 0.5; width: 175.06px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-footnote  "><span style="font-weight: 300">*in a sample of 1078 names</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 91.10% ; left: 93.70% ; opacity: 0.5; width: 110.04px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-source  "><span style="font-weight: 300">Source: Kaggle</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 33.51% ; left: 17.66% ; opacity: 1; width: 44.02px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Veg</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 41.09% ; left: 17.66% ; opacity: 1; width: 70.02px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Udupi</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 48.50% ; left: 17.66% ; opacity: 1; width: 82.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Bhavan</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 55.91% ; left: 17.66% ; opacity: 1; width: 88.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word "><b>Sri</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 63.32% ; left: 17.66% ; opacity: 1; width: 86.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Krishna</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 70.90% ; left: 17.66% ; opacity: 1; width: 98.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Upahar</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 78.48% ; left: 17.66% ; opacity: 1; width: 81.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Darshini</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 85.89% ; left: 12.66% ; opacity: 1; width: 31.01px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Vishnu</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 33.33% ; left: 81.62% ; opacity: 0.5; width: 41.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>545</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 40.92% ; left: 55.88% ; opacity: 0.5; width: 38.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>340</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 48.50% ; left: 48.49% ; opacity: 0.5; width: 38.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>288</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 55.56% ; left: 43.80% ; opacity: 0.5; width: 38.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>263</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 62.96% ; left: 40.32% ; opacity: 0.5; width: 37.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>254</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 70.90% ; left: 36.61% ; opacity: 0.5; width: 25.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>180</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 78.31% ; left: 22.35% ; opacity: 0.5; width: 31.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>71</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 85.44% ; left: 22.35% ; opacity: 0.5; width: 25.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>57</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 3.38% ; left: 49.82% ; opacity: 1; width: 700.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-20  "><b>Veg food — a dime a dozen</b></p>
+            </div>
+        </div>
+    
+    
+    
+        <!-- Frame: 640px -->
+        <div id="f2h-frame-640" class="f2h-frame frame artboard" data-aspect-ratio="1.006" data-min-width="640" data-max-width="959">
+            <div class="spacer" style="padding: 0 0 0 0; min-width: 640px; max-width: 959px;"></div>
+            <picture>
+                <img id="img-f2h-frame-640" class="f2h-img" alt="A bar chart" data-src="figma2html/640px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="640.00" height="636.00"/>
+            </picture>
+    <div class="f2h-text"  style="top: 25.63% ; left: 49.92% ; opacity: 0.5; width: 428.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-subhead  "><span style="font-weight: 700">Frequency of words appearing in darshini names*</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 14.16% ; left: 49.78% ; opacity: 1; width: 552.19px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-strap  "><span style="font-weight: 300">All </span><span style="font-weight: 300"><i>darshinis</i></span><span style="font-weight: 300"> serve vegetarian food. Half the names analysed, mention it in their names - just in case.</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 86.19% ; left: 92.86% ; opacity: 0.5; width: 175.06px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-footnote  "><span style="font-weight: 300">*in a sample of 1078 names</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 89.38% ; left: 92.39% ; opacity: 0.5; width: 110.04px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-source  "><span style="font-weight: 300">Source: Kaggle</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 32.59% ; left: 19.82% ; opacity: 1; width: 44.02px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Veg</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 39.98% ; left: 19.82% ; opacity: 1; width: 70.02px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Udupi</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 47.38% ; left: 19.82% ; opacity: 1; width: 82.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Bhavan</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 54.77% ; left: 19.82% ; opacity: 1; width: 88.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Sri</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 61.99% ; left: 19.82% ; opacity: 1; width: 86.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Krishna</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 69.38% ; left: 19.82% ; opacity: 1; width: 98.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Upahar</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 76.95% ; left: 19.82% ; opacity: 1; width: 81.03px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Darshini</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 84.51% ; left: 15.82% ; opacity: 1; width: 31.01px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  "><b>Vishnu</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 33.26% ; left: 83.18% ; opacity: 0.5; width: 41.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>545</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 39.98% ; left: 56.81% ; opacity: 0.5; width: 38.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>340</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 47.21% ; left: 50.41% ; opacity: 0.5; width: 38.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>288</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 54.60% ; left: 46.35% ; opacity: 0.5; width: 38.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>263</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 62.66% ; left: 42.45% ; opacity: 0.5; width: 37.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>254</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 70.06% ; left: 36.91% ; opacity: 0.5; width: 25.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>180</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 77.11% ; left: 24.66% ; opacity: 0.5; width: 31.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>71</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 84.51% ; left: 24.66% ; opacity: 0.5; width: 25.01px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  "><b>57</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 4.25% ; left: 49.94% ; opacity: 1; width: 526.18px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-20  "><b>Veg food — a dime a dozen</b></p>
+            </div>
+        </div>
+    
+    
+    
+        <!-- Frame: 960px -->
+        <div id="f2h-frame-960" class="f2h-frame frame artboard" data-aspect-ratio="1.107" data-min-width="960" data-max-width="1279">
+            <div class="spacer" style="padding: 0 0 0 0; min-width: 960px; max-width: 1279px;"></div>
+            <picture>
+                <img id="img-f2h-frame-960" class="f2h-img" alt="A bar chart" data-src="figma2html/960px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="960.00" height="867.00"/>
+            </picture>
+    <div class="f2h-text"  style="top: 30.08% ; left: 19.69% ; opacity: 1; width: 58.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Veg</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 24.68% ; left: 51.82% ; opacity: 0.5; width: 515.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-subhead  "><span style="font-weight: 700">Frequency of words appearing in darshini names*</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 14.19% ; left: 50.00% ; opacity: 1; width: 670.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-strap  "><span style="font-weight: 300"> All </span><span style="font-weight: 300"><i>darshinis</i></span><span style="font-weight: 300"> serve vegetarian food. Half the names analysed, mention it in their names - just in case.</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 85.70% ; left: 83.28% ; opacity: 0.5; width: 213.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-footnote  small-notes-in "><span style="font-weight: 300">*in a sample of 1078 names</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 89.16% ; left: 80.00% ; opacity: 0.5; width: 134.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-source  ">Source: Kaggle</p>
+            </div>
+    <div class="f2h-text"  style="top: 38.18% ; left: 19.69% ; opacity: 1; width: 94.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Udupi</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 46.29% ; left: 19.69% ; opacity: 1; width: 110.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Bhavan</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 54.39% ; left: 19.69% ; opacity: 1; width: 118.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Sri</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 62.38% ; left: 19.69% ; opacity: 1; width: 114.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Krishna</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 70.49% ; left: 19.69% ; opacity: 1; width: 130.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Upahar</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 78.71% ; left: 19.69% ; opacity: 1; width: 108.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Darshini</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 86.94% ; left: 14.69% ; opacity: 1; width: 43.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Vishnu</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 30.90% ; left: 87.08% ; opacity: 0.5; width: 65.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>545</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 38.30% ; left: 58.96% ; opacity: 0.5; width: 61.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>340</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 46.05% ; left: 52.19% ; opacity: 0.5; width: 60.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>288</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 54.28% ; left: 47.81% ; opacity: 0.5; width: 62.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>263</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 63.09% ; left: 43.33% ; opacity: 0.5; width: 60.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>254</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 71.19% ; left: 36.15% ; opacity: 0.5; width: 40.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>180</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 78.95% ; left: 24.79% ; opacity: 0.5; width: 49.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>71</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 87.05% ; left: 24.79% ; opacity: 0.5; width: 39.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>57</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 5.05% ; left: 50.00% ; opacity: 1; width: 788.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+                <p class="f2h-text-20  "><b>Veg food — a dime a dozen</b></p>
+            </div>
+        </div>
+    
+    
+    
+        <!-- Frame: 1280px -->
+        <div id="f2h-frame-1280" class="f2h-frame frame artboard" data-aspect-ratio="1.347" data-min-width="1280">
+            <div class="spacer" style="padding: 0 0 0 0; min-width: 1280px; max-width: none;"></div>
+            <picture>
+                <img id="img-f2h-frame-1280" class="f2h-img" alt="A bar chart" data-src="figma2html/1280px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="1280.00" height="950.00"/>
+            </picture>
+    <div class="f2h-text"  style="top: 34.32% ; left: 15.23% ; opacity: 1; width: 58.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Veg</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 84.95% ; left: 74.14% ; opacity: 0.5; width: 265.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-footnote  "><span style="font-weight: 300">*in a sample of 1078 names</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 89.68% ; left: 82.58% ; opacity: 0.5; width: 151.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-source  ">Source: Kaggle</p>
+            </div>
+    <div class="f2h-text"  style="top: 41.26% ; left: 15.23% ; opacity: 1; width: 94.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Udupi</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 48.11% ; left: 15.23% ; opacity: 1; width: 110.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Bhavan</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 54.95% ; left: 15.23% ; opacity: 1; width: 118.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Sri</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 61.79% ; left: 15.23% ; opacity: 1; width: 114.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Krishna</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 68.63% ; left: 15.23% ; opacity: 1; width: 130.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Upahar</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 75.47% ; left: 15.23% ; opacity: 1; width: 108.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Darshini</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 82.21% ; left: 10.23% ; opacity: 1; width: 43.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+                <p class="f2h-text-word  chart-text "><b>Vishnu</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 29.49% ; left: 87.34% ; opacity: 0.5; width: 65.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>545</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 37.83% ; left: 58.52% ; opacity: 0.5; width: 61.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>340</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 45.82% ; left: 52.11% ; opacity: 0.5; width: 60.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>288</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 53.92% ; left: 47.58% ; opacity: 0.5; width: 62.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>263</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 62.03% ; left: 43.88% ; opacity: 0.5; width: 60.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>254</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 70.14% ; left: 36.19% ; opacity: 0.5; width: 40.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>180</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 77.89% ; left: 21.17% ; opacity: 0.5; width: 49.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>71</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 86.00% ; left: 21.17% ; opacity: 0.5; width: 39.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-19  chart-numbers "><b>57</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 5.05% ; left: 4.08% ; opacity: 1; width: 1250.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-18  "><b>Veg food — a dime a dozen</b></p>
+            </div>
+    <div class="f2h-text"  style="top: 17.73% ; left: 6.17% ; opacity: 1; width: 1135.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-strap  "><span style="font-weight: 300">All </span><span style="font-weight: 300"><i>darshinis</i></span><span style="font-weight: 300"> serve vegetarian food. Half the names analysed, mention it in their names - just in case.</span></p>
+            </div>
+    <div class="f2h-text"  style="top: 28.95% ; left: 16.80% ; opacity: 0.5; width: 692.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+                <p class="f2h-text-subhead  "><span style="font-weight: 700">Frequency of words appearing in darshini names*</span></p>
+            </div>
+        </div>
+    </div><script>(e=>{if(!("querySelector"in document))return;const t=e=>{const t=e.getAttribute("data-src");t&&e.getAttribute("src")!=t&&e.setAttribute("src",t)},n=e=>{e.reduce(((e,t)=>e||t.isIntersecting),!1)&&(c=!1,r())},i=(e,t)=>t?Array.prototype.slice.call(t.querySelectorAll(e)):[],r=()=>{const e=i(`.${l}artboard:where([data-min-width],[data-max-width])`,o),a=Math.min(Math.round(o.offsetWidth),window.innerWidth);e.forEach((function(e){const n=e.getAttribute("data-min-width"),r=e.getAttribute("data-max-width");+n<=a&&(+r>=a||null===r)?(c||i(`.${l}f2h-img`,e).forEach(t),e.style.display="block"):e.style.display="none"})),c&&!s&&((e=>{const t=e.getBoundingClientRect();return t.top<window.innerHeight&&t.bottom>0})(o)?(c=!1,r()):(s=new IntersectionObserver(n,{rootMargin:"400px 400px"}),s.observe(o)))},o=document.getElementById(e),a=((e,t)=>{let n=null,i=0;const r=()=>{i=Date.now(),n=null,e()};return function(){const e=t-(Date.now()-i);e<=0||e>t?(clearTimeout(n),r()):n||(n=setTimeout(r,e))}})(r,200),l="";let s,c=!!window.IntersectionObserver;r(),document.addEventListener("DOMContentLoaded",r),window.addEventListener("resize",a)})("page-1-box", {namespace: "", setup: window.setupInteractive || window.getComponent});</script><script>
+          const apiLink = document.createElement('link');
+            apiLink.rel = 'preconnect';
+            apiLink.href = 'https://fonts.googleapis.com';
+    
+            const gstaticLink = document.createElement('link');
+            gstaticLink.rel = 'preconnect';
+            gstaticLink.href = 'https://fonts.gstatic.com';
+            gstaticLink.crossorigin = true
+    
+            const fontLink = document.createElement('link');
+            fontLink.rel = 'stylesheet';
+            fontLink.href = 'https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Caveat:ital,wght@0,700&display=swap';
+    
+            document.head.appendChild(apiLink);
+            document.head.appendChild(gstaticLink);
+            document.head.appendChild(fontLink);
+        </script>
+    </div>
+    <div class="body-text">
+        <p class="body-text"> Vegetarian food is both popular and abundant in India. One can assume that it will be available in most (if not all establishments). However, these name boards seem to indicate an exclusivity of "only vegetarian food" to attract customers. The names ending with "Veg" or "Pure Veg" are a clear nod to the food-preferences of the upper-caste Hindu customers.
+
+        <p class="body-text"> "Veg" also found its way into the naming patterns of darshinis. Through the analysis, I identified four patterns with standard prefixes and suffixes.</p>
+    </div>
+    <div id="page-2-box" class="figma2html">
+    <!-- Frame: 300px -->
+	<div id="f2h-frame-300" class="f2h-frame frame artboard" data-aspect-ratio="0.39" data-max-width="554">
+		<div class="spacer" style="padding: 0 0 0 0; min-width: 300px; max-width: 554px;"></div>
+		<picture>
+			<img id="img-f2h-frame-300" class="f2h-img" alt="A chart of naming patterns" data-src="figma2html2/300px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="300.00" height="769.00"/>
+		</picture>
+<div class="f2h-text"  style="top: 3.51% ; left: 50.17% ; opacity: 1; width: 333.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-head2  ">“Sri New Udupi Veg”</p>
+		</div>
+<div class="f2h-text"  style="top: 9.23% ; left: 50.00% ; bottom: 2%; opacity: 1; width: 270.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-strap2  ">Sri, New, Udupi, and Veg are the buzzwords to keep in mind while naming a darshini; most names are just variations of these four patterns: </p>
+		</div>
+<div class="f2h-text"  style="top: 20.41% ; left: 5.67% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">Sri </p>
+		</div>
+<div class="f2h-text"  style="top: 29.15% ; left: 7.33% ; opacity: 1; width: 95.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Udupi Park</p>
+		</div>
+<div class="f2h-text"  style="top: 34.90% ; left: 7.33% ; opacity: 1; width: 99.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Vishnu Park</p>
+		</div>
+<div class="f2h-text"  style="top: 24.84% ; left: 43.83% ; opacity: 1; width: 125.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(98 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 28.19% ; left: 83.00% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>34</b></p>
+		</div>
+<div class="f2h-text"  style="top: 32.02% ; left: 7.33% ; opacity: 1; width: 110.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Krishna Sagar</p>
+		</div>
+<div class="f2h-text"  style="top: 31.07% ; left: 83.00% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>30</b></p>
+		</div>
+<div class="f2h-text"  style="top: 21.85% ; left: 19.67% ; opacity: 1; width: 190.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Proper Noun + Environment</p>
+		</div>
+<div class="f2h-text"  style="top: 34.06% ; left: 83.00% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>10</b></p>
+		</div>
+<div class="f2h-text"  style="top: 44.65% ; left: 43.67% ; opacity: 1; width: 130.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(42 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 49.44% ; left: 7.33% ; opacity: 1; width: 113.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Vijayalakshmi <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 52.31% ; left: 7.33% ; opacity: 1; width: 96.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Chaitanya <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 54.95% ; left: 7.33% ; opacity: 1; width: 66.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Shilpa <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 48.60% ; left: 83.67% ; opacity: 1; width: 33.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>23</b></p>
+		</div>
+<div class="f2h-text"  style="top: 51.71% ; left: 83.00% ; opacity: 1; width: 33.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 54.35% ; left: 83.00% ; opacity: 1; width: 37.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 39.27% ; left: 55.33% ; opacity: 1; width: 40.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Veg</p>
+		</div>
+<div class="f2h-text"  style="top: 41.42% ; left: 51.67% ; opacity: 1; width: 101.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">Proper Noun +</p>
+		</div>
+<div class="f2h-text"  style="top: 81.87% ; left: 29.00% ; opacity: 1; width: 114.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">New Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 91.07% ; left: 7.33% ; opacity: 1; width: 122.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Garden</p>
+		</div>
+<div class="f2h-text"  style="top: 86.78% ; left: 52.00% ; opacity: 1; width: 114.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(38 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 94.07% ; left: 7.33% ; opacity: 1; width: 122.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Upahar</p>
+		</div>
+<div class="f2h-text"  style="top: 90.12% ; left: 85.33% ; opacity: 1; width: 28.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>25</b></p>
+		</div>
+<div class="f2h-text"  style="top: 93.30% ; left: 85.33% ; opacity: 1; width: 27.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>21</b></p>
+		</div>
+<div class="f2h-text"  style="top: 83.31% ; left: 71.00% ; opacity: 1; width: 49.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Noun </p>
+		</div>
+<div class="f2h-text"  style="top: 66.69% ; left: 56.00% ; opacity: 1; width: 126.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(45 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 71.43% ; left: 7.33% ; opacity: 1; width: 91.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi</b> Grand</p>
+		</div>
+<div class="f2h-text"  style="top: 73.94% ; left: 7.33% ; opacity: 1; width: 96.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi </b>Ruchi</p>
+		</div>
+<div class="f2h-text"  style="top: 70.35% ; left: 83.67% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>13</b></p>
+		</div>
+<div class="f2h-text"  style="top: 73.22% ; left: 83.67% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 61.64% ; left: 22.00% ; opacity: 1; width: 63.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 63.45% ; left: 85.33% ; opacity: 1; width: 117.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">+ Adjective/ Noun</p>
+		</div>
+	</div>
+
+
+
+	<!-- Frame: 555px -->
+	<div id="f2h-frame-555" class="f2h-frame frame artboard" data-aspect-ratio="1.063" data-min-width="555" data-max-width="639">
+		<div class="spacer" style="padding: 0 0 0 0; min-width: 555px; max-width: 639px;"></div>
+		<picture>
+			<img id="img-f2h-frame-555" class="f2h-img" alt="A chart of naming patterns" data-src="figma2html2/555px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="555.00" height="522.00"/>
+		</picture>
+<div class="f2h-text"  style="top: 5.11% ; left: 47.30% ; opacity: 1; width: 333.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-head2  ">“Sri New Udupi Veg”</p>
+		</div>
+<div class="f2h-text"  style="top: 14.46% ; left: 50.00% ; opacity: 1; width: 471.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-strap2  ">Sri, New, Udupi, and Veg are the buzzwords to keep in mind while naming a darshini; most names are just variations of these four patterns: </p>
+		</div>
+<div class="f2h-text"  style="top: 36.20% ; left: 5.05% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">Sri </p>
+		</div>
+<div class="f2h-text"  style="top: 49.08% ; left: 5.95% ; opacity: 1; width: 95.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Udupi Park</p>
+		</div>
+<div class="f2h-text"  style="top: 57.54% ; left: 5.95% ; opacity: 1; width: 99.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Vishnu Park</p>
+		</div>
+<div class="f2h-text"  style="top: 42.73% ; left: 25.68% ; opacity: 1; width: 125.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(98 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 42.02% ; left: 72.43% ; opacity: 1; width: 130.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(42 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 47.67% ; left: 39.64% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>34</b></p>
+		</div>
+<div class="f2h-text"  style="top: 53.31% ; left: 5.95% ; opacity: 1; width: 110.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Krishna Sagar</p>
+		</div>
+<div class="f2h-text"  style="top: 51.90% ; left: 39.64% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>30</b></p>
+		</div>
+<div class="f2h-text"  style="top: 49.08% ; left: 54.59% ; opacity: 1; width: 113.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Vijayalakshmi <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 53.31% ; left: 54.59% ; opacity: 1; width: 96.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Chaitanya <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 57.19% ; left: 54.59% ; opacity: 1; width: 66.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Shilpa <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 47.84% ; left: 88.65% ; opacity: 1; width: 33.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>23</b></p>
+		</div>
+<div class="f2h-text"  style="top: 52.43% ; left: 88.29% ; opacity: 1; width: 33.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 56.31% ; left: 88.29% ; opacity: 1; width: 37.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 34.10% ; left: 74.23% ; opacity: 1; width: 40.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">Veg</p>
+		</div>
+<div class="f2h-text"  style="top: 37.26% ; left: 72.25% ; opacity: 1; width: 101.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">Proper Noun +</p>
+		</div>
+<div class="f2h-text"  style="top: 38.32% ; left: 12.61% ; opacity: 1; width: 190.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Proper Noun + Environment</p>
+		</div>
+<div class="f2h-text"  style="top: 56.31% ; left: 39.64% ; opacity: 1; width: 31.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>10</b></p>
+		</div>
+<div class="f2h-text"  style="top: 69.91% ; left: 61.98% ; opacity: 1; width: 114.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">New Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 82.61% ; left: 54.59% ; opacity: 1; width: 122.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Garden</p>
+		</div>
+<div class="f2h-text"  style="top: 77.14% ; left: 74.41% ; opacity: 1; width: 114.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(38 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 87.02% ; left: 54.59% ; opacity: 1; width: 122.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Upahar</p>
+		</div>
+<div class="f2h-text"  style="top: 81.20% ; left: 88.47% ; opacity: 1; width: 28.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>25</b></p>
+		</div>
+<div class="f2h-text"  style="top: 85.25% ; left: 88.47% ; opacity: 1; width: 27.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>21</b></p>
+		</div>
+<div class="f2h-text"  style="top: 72.02% ; left: 84.68% ; opacity: 1; width: 49.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern ">+ Noun </p>
+		</div>
+<div class="f2h-text"  style="top: 76.79% ; left: 28.29% ; opacity: 1; width: 126.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(45 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 82.61% ; left: 6.85% ; opacity: 1; width: 91.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi</b> Grand</p>
+		</div>
+<div class="f2h-text"  style="top: 86.31% ; left: 6.85% ; opacity: 1; width: 96.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi </b>Ruchi</p>
+		</div>
+<div class="f2h-text"  style="top: 81.02% ; left: 39.10% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>13</b></p>
+		</div>
+<div class="f2h-text"  style="top: 85.25% ; left: 39.10% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 69.35% ; left: 9.91% ; opacity: 1; width: 63.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 72.02% ; left: 44.14% ; opacity: 1; width: 117.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">+ Adjective/ Noun</p>
+		</div>
+	</div>
+
+
+
+	<!-- Frame: 640px -->
+	<div id="f2h-frame-640" class="f2h-frame frame artboard" data-aspect-ratio="1.006" data-min-width="640" data-max-width="959">
+		<div class="spacer" style="padding: 0 0 0 0; min-width: 640px; max-width: 959px;"></div>
+		<picture>
+			<img id="img-f2h-frame-640" class="f2h-img" alt="A chart of naming patterns" data-src="figma2html2/640px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="640.00" height="636.00"/>
+		</picture>
+<div class="f2h-text"  style="top: 4.40% ; left: 50.00% ; opacity: 1; width: 411.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-head2  ">“Sri New Udupi Veg”</p>
+		</div>
+<div class="f2h-text"  style="top: 15.72% ; left: 49.92% ; opacity: 1; width: 536.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-strap2  ">Sri, New, Udupi, and Veg are the buzzwords to keep in mind while naming a darshini; most names are just variations of these four patterns: </p>
+		</div>
+<div class="f2h-text"  style="top: 35.22% ; left: 5.62% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Sri </p>
+		</div>
+<div class="f2h-text"  style="top: 46.38% ; left: 5.77% ; opacity: 1; width: 118.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Udupi Park</p>
+		</div>
+<div class="f2h-text"  style="top: 55.66% ; left: 5.77% ; opacity: 1; width: 99.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Vishnu Park</p>
+		</div>
+<div class="f2h-text"  style="top: 41.04% ; left: 24.02% ; opacity: 1; width: 154.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(98 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 41.04% ; left: 74.10% ; opacity: 1; width: 118.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(42 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 44.81% ; left: 37.75% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>34</b></p>
+		</div>
+<div class="f2h-text"  style="top: 50.94% ; left: 5.77% ; opacity: 1; width: 118.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Krishna Sagar</p>
+		</div>
+<div class="f2h-text"  style="top: 49.53% ; left: 37.75% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>30</b></p>
+		</div>
+<div class="f2h-text"  style="top: 46.38% ; left: 53.67% ; opacity: 1; width: 114.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Vijayalakshmi <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 50.94% ; left: 53.67% ; opacity: 1; width: 98.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Chaitanya <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 55.19% ; left: 53.67% ; opacity: 1; width: 70.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Shilpa <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 45.28% ; left: 84.24% ; opacity: 1; width: 40.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>23</b></p>
+		</div>
+<div class="f2h-text"  style="top: 48.74% ; left: 84.24% ; opacity: 1; width: 40.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 53.14% ; left: 84.24% ; opacity: 1; width: 32.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 33.81% ; left: 75.66% ; opacity: 1; width: 38.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">Veg</p>
+		</div>
+<div class="f2h-text"  style="top: 35.06% ; left: 73.95% ; opacity: 1; width: 96.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">Proper Noun +</p>
+		</div>
+<div class="f2h-text"  style="top: 36.16% ; left: 12.95% ; opacity: 1; width: 193.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Proper Noun + Environment</p>
+		</div>
+<div class="f2h-text"  style="top: 54.25% ; left: 37.75% ; opacity: 1; width: 30.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>10</b></p>
+		</div>
+<div class="f2h-text"  style="top: 68.55% ; left: 61.00% ; opacity: 1; width: 140.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight  ">New Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 81.13% ; left: 53.35% ; opacity: 1; width: 122.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Garden</p>
+		</div>
+<div class="f2h-text"  style="top: 75.00% ; left: 71.37% ; opacity: 1; width: 141.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(38 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 85.85% ; left: 53.35% ; opacity: 1; width: 122.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2 "><b>New</b> <b>Udupi</b> Upahar</p>
+		</div>
+<div class="f2h-text"  style="top: 79.56% ; left: 85.34% ; opacity: 1; width: 35.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>25</b></p>
+		</div>
+<div class="f2h-text"  style="top: 83.96% ; left: 85.34% ; opacity: 1; width: 33.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>21</b></p>
+		</div>
+<div class="f2h-text"  style="top: 70.44% ; left: 80.03% ; opacity: 1; width: 48.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Noun </p>
+		</div>
+<div class="f2h-text"  style="top: 74.69% ; left: 24.49% ; opacity: 1; width: 118.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(45 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 81.13% ; left: 5.77% ; opacity: 1; width: 112.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi</b> Grand</p>
+		</div>
+<div class="f2h-text"  style="top: 85.22% ; left: 5.77% ; opacity: 1; width: 118.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi </b>Ruchi</p>
+		</div>
+<div class="f2h-text"  style="top: 79.40% ; left: 36.35% ; opacity: 1; width: 34.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>13</b></p>
+		</div>
+<div class="f2h-text"  style="top: 83.96% ; left: 36.35% ; opacity: 1; width: 34.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 68.08% ; left: 10.61% ; opacity: 1; width: 65.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 70.44% ; left: 40.09% ; opacity: 1; width: 118.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">+ Adjective/ Noun</p>
+		</div>
+	</div>
+
+
+
+	<!-- Frame: 960px -->
+	<div id="f2h-frame-960" class="f2h-frame frame artboard" data-aspect-ratio="1.06" data-min-width="960" data-max-width="1279">
+		<div class="spacer" style="padding: 0 0 0 0; min-width: 960px; max-width: 1279px;"></div>
+		<picture>
+			<img id="img-f2h-frame-960" class="f2h-img" alt="A chart of naming patterns" data-src="figma2html2/960px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="960.00" height="906.00"/>
+		</picture>
+<div class="f2h-text"  style="top: 5.77% ; left: 48.70% ; opacity: 1; width: 867.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-head2  ">“Sri New Udupi Veg”</p>
+		</div>
+<div class="f2h-text"  style="top: 16.03% ; left: 50.00% ; opacity: 1; width: 842.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-strap2  ">Sri, New, Udupi, and Veg are the buzzwords to keep in mind while naming a darshini; most names are just variations of these four patterns: </p>
+		</div>
+<div class="f2h-text"  style="top: 34.03% ; left: 7.29% ; opacity: 1; width: 63.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Sri </p>
+		</div>
+<div class="f2h-text"  style="top: 46.83% ; left: 7.60% ; opacity: 1; width: 193.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2 "><b>Sri</b> Udupi Park</p>
+		</div>
+<div class="f2h-text"  style="top: 57.44% ; left: 7.60% ; opacity: 1; width: 161.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2 "><b>Sri</b> Vishnu Park</p>
+		</div>
+<div class="f2h-text"  style="top: 40.72% ; left: 27.45% ; opacity: 1; width: 251.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(98 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 40.72% ; left: 76.82% ; opacity: 1; width: 193.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(42 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 44.98% ; left: 42.40% ; opacity: 1; width: 41.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>34</b></p>
+		</div>
+<div class="f2h-text"  style="top: 52.13% ; left: 7.60% ; opacity: 1; width: 193.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Krishna Sagar</p>
+		</div>
+<div class="f2h-text"  style="top: 50.52% ; left: 42.40% ; opacity: 1; width: 41.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>30</b></p>
+		</div>
+<div class="f2h-text"  style="top: 47.64% ; left: 59.48% ; opacity: 1; width: 186.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Vijayalakshmi <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 51.56% ; left: 59.48% ; opacity: 1; width: 160.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Chaitanya <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 55.82% ; left: 59.48% ; opacity: 1; width: 114.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2 ">Shilpa <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 45.67% ; left: 88.02% ; opacity: 1; width: 64.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>23</b></p>
+		</div>
+<div class="f2h-text"  style="top: 49.60% ; left: 88.02% ; opacity: 1; width: 46.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 54.56% ; left: 88.02% ; opacity: 1; width: 42.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 32.53% ; left: 78.65% ; opacity: 1; width: 61.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Veg</p>
+		</div>
+<div class="f2h-text"  style="top: 33.91% ; left: 76.77% ; opacity: 1; width: 158.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">Proper Noun +</p>
+		</div>
+<div class="f2h-text"  style="top: 35.18% ; left: 15.31% ; opacity: 1; width: 316.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Proper Noun + Environment</p>
+		</div>
+<div class="f2h-text"  style="top: 55.82% ; left: 42.40% ; opacity: 1; width: 49.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>10</b></p>
+		</div>
+<div class="f2h-text"  style="top: 69.28% ; left: 62.71% ; opacity: 1; width: 228.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight">New Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 83.75% ; left: 59.48% ; opacity: 1; width: 193.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Garden</p>
+		</div>
+<div class="f2h-text"  style="top: 77.52% ; left: 76.04% ; opacity: 1; width: 230.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(38 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 89.06% ; left: 59.48% ; opacity: 1; width: 193.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Upahar</p>
+		</div>
+<div class="f2h-text"  style="top: 81.91% ; left: 88.65% ; opacity: 1; width: 58.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>25</b></p>
+		</div>
+<div class="f2h-text"  style="top: 86.87% ; left: 88.65% ; opacity: 1; width: 55.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>21</b></p>
+		</div>
+<div class="f2h-text"  style="top: 71.47% ; left: 83.44% ; opacity: 1; width: 79.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Noun </p>
+		</div>
+<div class="f2h-text"  style="top: 77.52% ; left: 26.72% ; opacity: 1; width: 193.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(45 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 83.75% ; left: 7.29% ; opacity: 1; width: 183.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi</b> Grand</p>
+		</div>
+<div class="f2h-text"  style="top: 88.48% ; left: 7.29% ; opacity: 1; width: 193.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi </b>Ruchi</p>
+		</div>
+<div class="f2h-text"  style="top: 82.01% ; left: 42.40% ; opacity: 1; width: 55.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>13</b></p>
+		</div>
+<div class="f2h-text"  style="top: 86.87% ; left: 42.40% ; opacity: 1; width: 55.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 68.72% ; left: 11.46% ; opacity: 1; width: 106.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 71.49% ; left: 43.65% ; opacity: 1; width: 192.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">+ Adjective/ Noun</p>
+		</div>
+	</div>
+
+
+
+	<!-- Frame: 1280px -->
+	<div id="f2h-frame-1280" class="f2h-frame frame artboard" data-aspect-ratio="1.296" data-min-width="1280">
+		<div class="spacer" style="padding: 0 0 0 0; min-width: 1280px; max-width: none;"></div>
+		<picture>
+			<img id="img-f2h-frame-1280" class="f2h-img" alt="A chart of naming patterns" data-src="figma2html2/1280px.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==" loading="lazy" draggable="false" decoding="async" width="1280.00" height="988.00"/>
+		</picture>
+<div class="f2h-text"  style="top: 30.63% ; left: 7.66% ; opacity: 1; width: 54.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Sri </p>
+		</div>
+<div class="f2h-text"  style="top: 70.77% ; left: 66.09% ; opacity: 1; width: 180.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">New Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 5.47% ; left: 49.96% ; opacity: 1; width: 1141.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-head2  ">“Sri New Udupi Veg”</p>
+		</div>
+<div class="f2h-text"  style="top: 43.16% ; left: 6.48% ; opacity: 1; width: 260.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Udupi Park</p>
+		</div>
+<div class="f2h-text"  style="top: 56.32% ; left: 6.48% ; opacity: 1; width: 216.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Vishnu Park</p>
+		</div>
+<div class="f2h-text"  style="top: 14.57% ; left: 49.92% ; opacity: 1; width: 800.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-strap2  ">Sri, New, Udupi, and Veg are the buzzwords to keep in mind while naming a darshini; most names are just variations of these four patterns: </p>
+		</div>
+<div class="f2h-text"  style="top: 82.24% ; left: 60.31% ; opacity: 1; width: 260.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New</b> <b>Udupi</b> Garden</p>
+		</div>
+<div class="f2h-text"  style="top: 76.87% ; left: 76.88% ; opacity: 1; width: 260.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(38 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 36.95% ; left: 22.89% ; opacity: 1; width: 260.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(98 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 36.95% ; left: 78.20% ; opacity: 1; width: 260.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(42 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 87.61% ; left: 60.31% ; opacity: 1; width: 260.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>New Udupi</b> Upahar</p>
+		</div>
+<div class="f2h-text"  style="top: 42.21% ; left: 35.31% ; opacity: 1; width: 57.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>34</b></p>
+		</div>
+<div class="f2h-text"  style="top: 49.68% ; left: 6.48% ; opacity: 1; width: 260.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Sri</b> Krishna Sagar</p>
+		</div>
+<div class="f2h-text"  style="top: 49.16% ; left: 35.31% ; opacity: 1; width: 57.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>30</b></p>
+		</div>
+<div class="f2h-text"  style="top: 44.11% ; left: 59.45% ; opacity: 1; width: 251.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Vijayalakshmi <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 49.89% ; left: 59.45% ; opacity: 1; width: 216.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Chaitanya <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 56.00% ; left: 59.45% ; opacity: 1; width: 154.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  ">Shilpa <b>Veg</b></p>
+		</div>
+<div class="f2h-text"  style="top: 43.37% ; left: 89.38% ; opacity: 1; width: 71.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>23</b></p>
+		</div>
+<div class="f2h-text"  style="top: 49.37% ; left: 89.38% ; opacity: 1; width: 51.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 81.71% ; left: 89.14% ; opacity: 1; width: 51.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>25</b></p>
+		</div>
+<div class="f2h-text"  style="top: 55.68% ; left: 89.38% ; opacity: 1; width: 48.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 86.77% ; left: 89.14% ; opacity: 1; width: 48.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>21</b></p>
+		</div>
+<div class="f2h-text"  style="top: 30.53% ; left: 80.31% ; opacity: 1; width: 60.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Veg</p>
+		</div>
+<div class="f2h-text"  style="top: 32.00% ; left: 79.06% ; opacity: 1; width: 170.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern  ">Proper Noun +</p>
+		</div>
+<div class="f2h-text"  style="top: 32.11% ; left: 14.06% ; opacity: 1; width: 317.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Proper Noun + Environment</p>
+		</div>
+<div class="f2h-text"  style="top: 72.03% ; left: 82.03% ; opacity: 1; width: 79.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-pattern  ">+ Noun</p>
+		</div>
+<div class="f2h-text"  style="top: 55.26% ; left: 35.31% ; opacity: 1; width: 43.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>10</b></p>
+		</div>
+<div class="f2h-text"  style="top: 76.13% ; left: 22.85% ; opacity: 1; width: 193.00px; transform: translate(-50%, 0%) rotate(0deg); transform-origin: left top; text-align: center; ">
+			<p class="f2h-text-br  "><span style="font-weight: 300">(45 unique names)</span></p>
+		</div>
+<div class="f2h-text"  style="top: 81.70% ; left: 7.03% ; opacity: 1; width: 242.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi</b> Grand</p>
+		</div>
+<div class="f2h-text"  style="top: 87.39% ; left: 7.03% ; opacity: 1; width: 256.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-word2  "><b>Udupi </b>Ruchi</p>
+		</div>
+<div class="f2h-text"  style="top: 81.28% ; left: 37.81% ; opacity: 1; width: 73.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num "><b>13</b></p>
+		</div>
+<div class="f2h-text"  style="top: 87.39% ; left: 37.81% ; opacity: 1; width: 73.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-num  "><b>12</b></p>
+		</div>
+<div class="f2h-text"  style="top: 68.23% ; left: 12.11% ; opacity: 1; width: 106.00px; transform: translate(0%, 0%) rotate(0deg); transform-origin: left top; text-align: left; ">
+			<p class="f2h-text-highlight ">Udupi</p>
+		</div>
+<div class="f2h-text"  style="top: 70.76% ; left: 36.25% ; opacity: 1; width: 192.00px; transform: translate(-100%, 0%) rotate(0deg); transform-origin: left top; text-align: right; ">
+			<p class="f2h-text-pattern ">+ Adjective/ Noun</p>
+		</div>
+	</div>
+    </div><script>(e=>{if(!("querySelector"in document))return;const t=e=>{const t=e.getAttribute("data-src");t&&e.getAttribute("src")!=t&&e.setAttribute("src",t)},n=e=>{e.reduce(((e,t)=>e||t.isIntersecting),!1)&&(c=!1,r())},i=(e,t)=>t?Array.prototype.slice.call(t.querySelectorAll(e)):[],r=()=>{const e=i(`.${l}artboard:where([data-min-width],[data-max-width])`,o),a=Math.min(Math.round(o.offsetWidth),window.innerWidth);e.forEach((function(e){const n=e.getAttribute("data-min-width"),r=e.getAttribute("data-max-width");+n<=a&&(+r>=a||null===r)?(c||i(`.${l}f2h-img`,e).forEach(t),e.style.display="block"):e.style.display="none"})),c&&!s&&((e=>{const t=e.getBoundingClientRect();return t.top<window.innerHeight&&t.bottom>0})(o)?(c=!1,r()):(s=new IntersectionObserver(n,{rootMargin:"400px 400px"}),s.observe(o)))},o=document.getElementById(e),a=((e,t)=>{let n=null,i=0;const r=()=>{i=Date.now(),n=null,e()};return function(){const e=t-(Date.now()-i);e<=0||e>t?(clearTimeout(n),r()):n||(n=setTimeout(r,e))}})(r,200),l="";let s,c=!!window.IntersectionObserver;r(),document.addEventListener("DOMContentLoaded",r),window.addEventListener("resize",a)})("page-2-box", {namespace: "", setup: window.setupInteractive || window.getComponent});</script><script>
+	  const apiLink = document.createElement('link');
+		apiLink.rel = 'preconnect';
+		apiLink.href = 'https://fonts.googleapis.com';
+
+		const gstaticLink = document.createElement('link');
+		gstaticLink.rel = 'preconnect';
+		gstaticLink.href = 'https://fonts.gstatic.com';
+		gstaticLink.crossorigin = true
+
+		const fontLink = document.createElement('link');
+		fontLink.rel = 'stylesheet';
+		fontLink.href = 'https://fonts.googleapis.com/css2?family=Caveat+Brush:ital,wght@0,400&family=Ysabeau:ital,wght@0,300;0,400;0,700&family=Caveat:ital,wght@0,700&display=swap';
+
+		document.head.appendChild(apiLink);
+		document.head.appendChild(gstaticLink);
+		document.head.appendChild(fontLink);
+	</script>
+
+    </div>
+    <div class="story-body">
+        <p class="body-text">If you were to go darshini-hopping, you would find most of them clustered in the southern parts of the city, close to where the first darshini appeared. Localities such as BTM layout, HSR and Koramangala - housing large student and working populations - are bursting with them. </p>
+
+        <div><p align="center"><iframe width='700px' height='400px' src="https://api.mapbox.com/styles/v1/aishmod/cljsdnp3a01b501pkb9gp0uoo.html?title=false&access_token=pk.eyJ1IjoiYWlzaG1vZCIsImEiOiJjanA5aXpiMnYwOG5yM29wbGFzc3FneG9oIn0.4NyTcZujSWjhKYYD99CerA&zoomwheel=false#10.44/12.966/77.5997" title="Monochrome" style="border:none; padding-bottom: 2rem;"></iframe></p></div>
+
+        <p class="body-text">So the next time you're in Bangalore, make sure you type the right search words to find your nearest darshini. You'll have a hot meal, coffee, and then kindly asked to be on your way.</p>
+    
+    <div class="footer">
+        <p> This project was inspired by <a href = "https://pudding.cool/2019/10/pubs/">The Pudding's analysis of pub names</a> in the UK.</p>
+
+        <p id="footnote-1">[1] Dev, Arun. <a href="https://www.hindustantimes.com/india-news/darshinis-the-cornerstone-of-bengaluru-s-fast-food-culture-101631385908215.html">Darshinis: The cornerstone of Bengaluru’s fast food culture.</a> Hindustan Times. 2017</p>
+
+        <p id="footnote-2">[2] The dataset for this project was sourced from Kaggle. It has not been updated in four years, and hence the data may be outdated. It can be found <a href = "https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants">here</a></p>
+
+        <p>Link to GitHub repo</p>
+
+
+    </div>
+
+    </div>
+
+  </body>
+
